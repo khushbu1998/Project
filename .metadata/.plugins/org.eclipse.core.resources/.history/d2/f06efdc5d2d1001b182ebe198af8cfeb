@@ -1,0 +1,5 @@
+package com.cts.khushbu.model;
+
+public class UserLogin {
+
+}

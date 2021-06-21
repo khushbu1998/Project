@@ -1,0 +1,5 @@
+package com.cts.parlour.model;
+
+public class Product {
+
+}

@@ -1,0 +1,12 @@
+package com.cts.parlour.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+import com.cts.parlour.model.Product;
+
+
+public interface ProductRepository extends JpaRepository<Product,Long> {
+	
+}

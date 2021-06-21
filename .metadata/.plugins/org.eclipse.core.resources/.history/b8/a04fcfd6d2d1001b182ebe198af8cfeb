@@ -1,0 +1,5 @@
+package com.cts.khushbu.repository;
+
+public class UserLoginRepostiory {
+
+}

@@ -1,0 +1,5 @@
+package com.cts.parlour.repository;
+
+public class JpaRepository {
+
+}

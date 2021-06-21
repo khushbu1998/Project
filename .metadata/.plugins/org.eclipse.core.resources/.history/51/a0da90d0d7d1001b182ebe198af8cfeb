@@ -1,0 +1,17 @@
+package com.cts.khushbu.model;
+
+import lombok.Data;
+
+@Data
+public class UserLogin {
+
+	private String firstName;
+	private String lastName;
+	private String mobile;
+	private String gender;
+	private String securityQuesiton;
+	private String email;
+	private String password;
+	private String confirmPassword;
+
+}

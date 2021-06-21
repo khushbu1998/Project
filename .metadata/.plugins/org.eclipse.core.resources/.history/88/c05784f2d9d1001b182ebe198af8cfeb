@@ -1,0 +1,16 @@
+package com.cts.khushbu.service;
+
+import org.springframework.stereotype.Component;
+
+import com.cts.khushbu.model.UserLogin;
+
+
+@Component
+public class LoginService {
+	public boolean validate(UserLogin userLogin) {
+		 
+		 return(userLogin.getEmail().equalsIgnoreCase("Khushbu") 
+				 && userLogin.getPassword().equalsIgnoreCase("Agrawal"));
+	 }
+
+}

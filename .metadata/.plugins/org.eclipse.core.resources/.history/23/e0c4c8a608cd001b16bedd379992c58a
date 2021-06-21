@@ -1,0 +1,27 @@
+package com.cts.parlour.model;
+
+import java.math.BigDecimal;
+import java.sql.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+
+@Entity
+@Table(name="product")
+@Data
+public class Product {
+	
+	private Long id;
+	private String name;
+	private String Description;
+	private BigDecimal unitPrice;
+	private String imageUrl;
+	private boolean active;
+	private int unitsInStock;
+	private Date dateCreated;
+	private Date lastUpdated;
+	
+}
